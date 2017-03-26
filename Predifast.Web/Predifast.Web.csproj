@@ -1,0 +1,176 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\animate.css" />
+    <Content Include="wwwroot\css\bootstrap\bootstrap.min.css" />
+    <Content Include="wwwroot\css\font-awesome.min.css" />
+    <Content Include="wwwroot\css\fonts\glyphicons-halflings-regular-2.html" />
+    <Content Include="wwwroot\css\fonts\glyphicons-halflings-regular-3.html" />
+    <Content Include="wwwroot\css\fonts\glyphicons-halflings-regular-4.html" />
+    <Content Include="wwwroot\css\fonts\glyphicons-halflings-regular-5.html" />
+    <Content Include="wwwroot\css\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="wwwroot\css\fonts\glyphicons-halflings-regulard41d.html" />
+    <Content Include="wwwroot\css\images\controls.html" />
+    <Content Include="wwwroot\css\images\ui-bg_diagonals-thick_18_b81900_40x40.html" />
+    <Content Include="wwwroot\css\images\ui-bg_diagonals-thick_20_666666_40x40.html" />
+    <Content Include="wwwroot\css\images\ui-bg_flat_10_000000_40x100.html" />
+    <Content Include="wwwroot\css\ionicons.min.css" />
+    <Content Include="wwwroot\css\main.css" />
+    <Content Include="wwwroot\css\responsive.css" />
+    <Content Include="wwwroot\css\style.css" />
+    <Content Include="wwwroot\images\404-number.png" />
+    <Content Include="wwwroot\images\avatar-1.png" />
+    <Content Include="wwwroot\images\avatar-2.png" />
+    <Content Include="wwwroot\images\bg\bg-parallax-1.jpg" />
+    <Content Include="wwwroot\images\bg\bg-parallax.jpg" />
+    <Content Include="wwwroot\images\bg\report-bg.jpg" />
+    <Content Include="wwwroot\images\bg\sub-banner.jpg" />
+    <Content Include="wwwroot\images\blog-img-1.jpg" />
+    <Content Include="wwwroot\images\blog-img-2.jpg" />
+    <Content Include="wwwroot\images\blog-img-3.jpg" />
+    <Content Include="wwwroot\images\blog-img-4.jpg" />
+    <Content Include="wwwroot\images\blog-img-5.jpg" />
+    <Content Include="wwwroot\images\case-img-1.jpg" />
+    <Content Include="wwwroot\images\case-img-2.jpg" />
+    <Content Include="wwwroot\images\case-img-3.jpg" />
+    <Content Include="wwwroot\images\case-img-4.jpg" />
+    <Content Include="wwwroot\images\case-img-5.jpg" />
+    <Content Include="wwwroot\images\case-img-6.jpg" />
+    <Content Include="wwwroot\images\case-single-1.png" />
+    <Content Include="wwwroot\images\case-single-2.png" />
+    <Content Include="wwwroot\images\client-img-1.png" />
+    <Content Include="wwwroot\images\client-img-2.png" />
+    <Content Include="wwwroot\images\client-img-3.png" />
+    <Content Include="wwwroot\images\client-img-4.png" />
+    <Content Include="wwwroot\images\client-img-5.png" />
+    <Content Include="wwwroot\images\clients-logo-1.jpg" />
+    <Content Include="wwwroot\images\clients-logo-2.jpg" />
+    <Content Include="wwwroot\images\clients-logo-3.jpg" />
+    <Content Include="wwwroot\images\clients-logo-4.jpg" />
+    <Content Include="wwwroot\images\clients-logo-5.jpg" />
+    <Content Include="wwwroot\images\clients-logo-6.jpg" />
+    <Content Include="wwwroot\images\com-avatar-1.jpg" />
+    <Content Include="wwwroot\images\com-avatar-2.jpg" />
+    <Content Include="wwwroot\images\com-avatar-3.jpg" />
+    <Content Include="wwwroot\images\favicon.ico" />
+    <Content Include="wwwroot\images\flow-icon-1.png" />
+    <Content Include="wwwroot\images\flow-icon-2.png" />
+    <Content Include="wwwroot\images\flow-icon-3.png" />
+    <Content Include="wwwroot\images\flow-icon-4.png" />
+    <Content Include="wwwroot\images\icon-1.png" />
+    <Content Include="wwwroot\images\icon-2.png" />
+    <Content Include="wwwroot\images\icon-3.png" />
+    <Content Include="wwwroot\images\icon-4.png" />
+    <Content Include="wwwroot\images\ipad.jpg" />
+    <Content Include="wwwroot\images\list-icon-1.png" />
+    <Content Include="wwwroot\images\list-icon-2.png" />
+    <Content Include="wwwroot\images\list-icon-3.png" />
+    <Content Include="wwwroot\images\list-icon-4.png" />
+    <Content Include="wwwroot\images\logo-footer.png" />
+    <Content Include="wwwroot\images\logo-footer1.png" />
+    <Content Include="wwwroot\images\logo.png" />
+    <Content Include="wwwroot\images\new-1.jpg" />
+    <Content Include="wwwroot\images\new-2.jpg" />
+    <Content Include="wwwroot\images\plan-icon-1.png" />
+    <Content Include="wwwroot\images\plan-icon-2.png" />
+    <Content Include="wwwroot\images\plan-icon-3.png" />
+    <Content Include="wwwroot\images\process.jpg" />
+    <Content Include="wwwroot\images\report-img.png" />
+    <Content Include="wwwroot\images\services-img.jpg" />
+    <Content Include="wwwroot\images\slides\img--1-1.png" />
+    <Content Include="wwwroot\images\slides\img--2-1.png" />
+    <Content Include="wwwroot\images\slides\slide-bg-1.jpg" />
+    <Content Include="wwwroot\images\slides\slide-bg-2.jpg" />
+    <Content Include="wwwroot\images\team-1.jpg" />
+    <Content Include="wwwroot\images\team-2.jpg" />
+    <Content Include="wwwroot\images\team-3.jpg" />
+    <Content Include="wwwroot\images\testi-img-1.png" />
+    <Content Include="wwwroot\images\testi-thumb-img-1.png" />
+    <Content Include="wwwroot\images\testi-thumb-img-2.png" />
+    <Content Include="wwwroot\images\testi-thumb-img-3.png" />
+    <Content Include="wwwroot\images\testi-thumb-img-4.png" />
+    <Content Include="wwwroot\images\top-left-bar.jpg" />
+    <Content Include="wwwroot\images\top-right-bar.jpg" />
+    <Content Include="wwwroot\images\work-folow-img.jpg" />
+    <Content Include="wwwroot\js\main.js" />
+    <Content Include="wwwroot\js\vendors\bootstrap.min.js" />
+    <Content Include="wwwroot\js\vendors\flexslider\jquery.flexslider-min.js" />
+    <Content Include="wwwroot\js\vendors\jquery.bxslider.min.js" />
+    <Content Include="wwwroot\js\vendors\jquery.countTo.js" />
+    <Content Include="wwwroot\js\vendors\jquery.isotope.min.js" />
+    <Content Include="wwwroot\js\vendors\jquery.sticky.js" />
+    <Content Include="wwwroot\js\vendors\jquery\jquery.min.js" />
+    <Content Include="wwwroot\js\vendors\modernizr.js" />
+    <Content Include="wwwroot\js\vendors\owl.carousel.min.js" />
+    <Content Include="wwwroot\js\vendors\own-menu.js" />
+    <Content Include="wwwroot\js\vendors\wow.min.js" />
+    <Content Include="wwwroot\js\zap.html" />
+    <Content Include="wwwroot\rs-plugin\assets\arrowleft.png" />
+    <Content Include="wwwroot\rs-plugin\assets\arrowright.png" />
+    <Content Include="wwwroot\rs-plugin\assets\arrow_left.png" />
+    <Content Include="wwwroot\rs-plugin\assets\arrow_left2.png" />
+    <Content Include="wwwroot\rs-plugin\assets\arrow_right.png" />
+    <Content Include="wwwroot\rs-plugin\assets\arrow_right2.png" />
+    <Content Include="wwwroot\rs-plugin\assets\boxed_bgtile.png" />
+    <Content Include="wwwroot\rs-plugin\assets\bullet.png" />
+    <Content Include="wwwroot\rs-plugin\assets\bullets.png" />
+    <Content Include="wwwroot\rs-plugin\assets\bullets2.png" />
+    <Content Include="wwwroot\rs-plugin\assets\bullet_boxed.png" />
+    <Content Include="wwwroot\rs-plugin\assets\coloredbg.png" />
+    <Content Include="wwwroot\rs-plugin\assets\gridtile.png" />
+    <Content Include="wwwroot\rs-plugin\assets\gridtile_3x3.png" />
+    <Content Include="wwwroot\rs-plugin\assets\gridtile_3x3_white.png" />
+    <Content Include="wwwroot\rs-plugin\assets\gridtile_white.png" />
+    <Content Include="wwwroot\rs-plugin\assets\large_left.png" />
+    <Content Include="wwwroot\rs-plugin\assets\large_right.png" />
+    <Content Include="wwwroot\rs-plugin\assets\loader.gif" />
+    <Content Include="wwwroot\rs-plugin\assets\navigdots.png" />
+    <Content Include="wwwroot\rs-plugin\assets\navigdots_bgtile.png" />
+    <Content Include="wwwroot\rs-plugin\assets\shadow1.png" />
+    <Content Include="wwwroot\rs-plugin\assets\shadow2.png" />
+    <Content Include="wwwroot\rs-plugin\assets\shadow3.png" />
+    <Content Include="wwwroot\rs-plugin\assets\small_left.png" />
+    <Content Include="wwwroot\rs-plugin\assets\small_left_boxed.png" />
+    <Content Include="wwwroot\rs-plugin\assets\small_right.png" />
+    <Content Include="wwwroot\rs-plugin\assets\small_right_boxed.png" />
+    <Content Include="wwwroot\rs-plugin\assets\timer.png" />
+    <Content Include="wwwroot\rs-plugin\css\settings.css" />
+    <Content Include="wwwroot\rs-plugin\font\revicons90c6.eot" />
+    <Content Include="wwwroot\rs-plugin\font\revicons90c6.svg" />
+    <Content Include="wwwroot\rs-plugin\font\revicons90c6.ttf" />
+    <Content Include="wwwroot\rs-plugin\font\revicons90c6.woff" />
+    <Content Include="wwwroot\rs-plugin\images\gradient\g30.png" />
+    <Content Include="wwwroot\rs-plugin\images\gradient\g40.png" />
+    <Content Include="wwwroot\rs-plugin\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="wwwroot\rs-plugin\js\jquery.themepunch.tools.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
